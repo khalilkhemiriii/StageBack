@@ -1,0 +1,19 @@
+{
+  "changelogDate": "20220811130749",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "id_cat",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "categoryName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Category",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

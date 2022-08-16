@@ -1,0 +1,46 @@
+{
+  "changelogDate": "20220811130636",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "id_product",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "productName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required", "unique", "min", "max"],
+      "fieldValidateRulesMax": "9999",
+      "fieldValidateRulesMin": "0"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "categoryName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoryId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "totalPrice",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Product",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,35 @@
+{
+  "changelogDate": "20220811131354",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "finalPrice",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "shippingCity",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "shippingStreet",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "shippingDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "orderDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "creditCard",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Order",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

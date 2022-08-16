@@ -1,0 +1,23 @@
+{
+  "changelogDate": "20220811131528",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "id_cart",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Cart",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
